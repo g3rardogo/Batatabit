@@ -421,9 +421,28 @@ main{
     color: var(--white);
 }
 
-.product__card-body{
+.product__card-body {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
     color: #808080;
+}
+
+.bitcoin-img__container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('./assets/img/bitcoinbaby2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bitcoin-img__container h2 {
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--white);
+    text-align: center;
 }

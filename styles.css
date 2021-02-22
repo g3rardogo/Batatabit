@@ -28,7 +28,7 @@ Base Theme
 
 html {
     font-size: 62.5%;
-    font-family: 'DM Sans', sans-serif;
+    font-family: "DM Sans", sans-serif;
 }
 /*End base theme*/
 
@@ -495,12 +495,40 @@ main{
     position: absolute;
     width: 120px;
     height: 31px;
-    background-color: var(--bitcoin-orange);
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
     border-radius: 8px;
     padding: 8px;
     top: -15px;
     left: calc(50% - 60px);
-    font-family: 'Inter', 'sans-serif';
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+.basic {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    background: linear-gradient(200.8deg, #201E1C 16.69%, #1A9AF7 100%);;
+    border-radius: 8px;
+    padding: 8px;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+.premium {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    background: linear-gradient(200.8deg, #201E1C 16.69%, #91199c 100%);;
+    border-radius: 8px;
+    padding: 8px;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-family: "Inter", sans-serif;
     font-size: 1.2rem;
     color: var(--white);
 }
@@ -514,7 +542,7 @@ main{
 }
 
 .plan-card__price {
-    font-family: 'Inter', 'sans-serif';
+    font-family: "Inter", sans-serif;
     font-size: 5.2rem;
     font-weight: bold;
     color: var(--black);
@@ -529,4 +557,54 @@ main{
 .plan-card__saving {
     font-size: 1.2rem;
     color: #757575;
+}
+
+.plan-card__ca-recommended {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: var(--off-white);
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--warm-black);
+}
+
+.plan-card__ca-recommended span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/icons/orange-right-arrow.svg');
+    vertical-align: text-bottom;
+}
+
+.plan-card__ca-basic {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: var(--off-white);
+    border: 2px solid #1A9AF7;
+    border-radius: 4px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--warm-black);
+}
+
+.plan-card__ca-premium {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: var(--off-white);
+    border: 2px solid #91199c;
+    border-radius: 4px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--warm-black);
 }

@@ -477,3 +477,56 @@ main{
     line-height: 1.8rem;
     color: #757575;
 }
+
+.plans-container__card {
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0px 15px;
+    background-color: var(--white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.recommended {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    padding: 8px;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-family: 'Inter', 'sans-serif';
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+.plan-card__tittle {
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+
+.plan-card__price {
+    font-family: 'Inter', 'sans-serif';
+    font-size: 5.2rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.plan-card__price span {
+    font-size: 1.2rem;
+    font-weight: 500;
+    vertical-align: 25px;
+}
+
+.plan-card__saving {
+    font-size: 1.2rem;
+    color: #757575;
+}

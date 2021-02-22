@@ -29,6 +29,7 @@ Base Theme
 html {
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
+    scroll-behavior : smooth;
 }
 /*End base theme*/
 
@@ -495,7 +496,7 @@ main{
 .plans-container__slider {
     display: flex;
     height: 316px;
-    width: 95%;
+    width: 100%;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
